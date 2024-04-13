@@ -9,13 +9,16 @@ Repositório para armazenar resumos sobre o Git e o Github do curso Versionament
 # 💻 Resumos das aulas
 | Aulas | Resumos |
 | ----------- | -----------|
-| Git e GitHub | Resumo das aulas sobre Git e GitHub |
+| Aula 01 | [Resumo]() |
+| Aula 02 | [Resumo]() |
 
 ```
-git init
 git clone URL
+-- ou --
+git init
+
 git add nome-do-arquivo
 git commit -m "mensagem"
 git remote add origin URL 
-git push
+git push -u origin main
 ```
