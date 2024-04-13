@@ -11,11 +11,11 @@ Repositório para armazenar resumos sobre o Git e o Github do curso Versionament
 | ----------- | -----------|
 | Git e GitHub | Resumo das aulas sobre Git e GitHub |
 
-'''
+```
 git init
 git clone URL
 git add nome-do-arquivo
 git commit -m "mensagem"
 git remote add origin URL 
 git push
-'''
+```
