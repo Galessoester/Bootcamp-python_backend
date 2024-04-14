@@ -1,6 +1,6 @@
 # 🤗 Bem vindos
 
-Este repositório guarda os projetos feitos a partir do **Bootcamp - Python Backend Developer** pela DIO em parceria com a Vivo.
+Este repositório guarda os projetos feitos a partir do [**Bootcamp - Python Backend Developer**](https://www.dio.me/bootcamp/coding-future-vivo-python-ai-backend-developer) pela [Digital Innovation One](https://www.dio.me/) em parceria com a Vivo.
 
 🔍 *Fique a vontade para navegar pelas minhas anotações:*
 
