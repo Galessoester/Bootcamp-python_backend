@@ -36,3 +36,7 @@ git merge teste
 **Resultado:**
 
 ![imagem main e teste apontando para commit 3](image-3.png)
+-------------------
+Para finalizar, vamos excluir a branch teste:
+
+![excluindo branch teste](image-4.png)
