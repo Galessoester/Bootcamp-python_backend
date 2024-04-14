@@ -12,7 +12,7 @@ git commit -m "commit 1"
 ---------------------------------
 **Nesse momento podemos pereber que a main está apontando para o commit 2.**
 
-![imagem branch main apontando para commit 2](image.png)
+![imagem branch main apontando para commit 2](./imagens/image.png)
 
 **Desculpe pessoal, acabei tirando o print errado e só percebi depois que terminei todo o processo*
 
@@ -25,10 +25,10 @@ git checkout -b 'teste'
 
 **Agora as duas branches estão apontando para o mesmo commit:**
 
-![imagem branch main e teste apontando para commit 2](image-1.png)
+![imagem branch main e teste apontando para commit 2](./imagens/image-1.png)
 ----------------
 Vamos criar um novo arquivo com o nome commit-3-branch-teste e dar o commit, agora na branch teste, para ver o que acontece:
-![imagem branch main apontando para commit 2 e teste para commit 3](image-2.png)
+![imagem branch main apontando para commit 2 e teste para commit 3](./imagens/image-2.png)
 
 Vemos que a branch teste aponta para o commit 3, mas a branch main ficou no commit 2. 
 Para nivelar as duas precisamos dar o comando "merge".
@@ -38,8 +38,8 @@ git merge teste
 ```
 **Resultado:**
 
-![imagem main e teste apontando para commit 3](image-3.png)
+![imagem main e teste apontando para commit 3](./imagens/image-3.png)
 -------------------
 Para finalizar, vamos excluir a branch teste:
 
-![excluindo branch teste](image-4.png)
+![excluindo branch teste](./imagens/image-4.png)
