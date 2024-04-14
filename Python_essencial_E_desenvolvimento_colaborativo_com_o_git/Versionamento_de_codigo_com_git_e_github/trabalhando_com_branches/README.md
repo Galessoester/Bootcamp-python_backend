@@ -13,6 +13,7 @@ git commit -m "commit 1"
 **Nesse momento podemos pereber que a main está apontando para o commit 2.**
 
 ![imagem branch main apontando para commit 2](image.png)
+**Desculpe pessoal, acabei tirando o print errado e só percebi depois que terminei todo o processo*
 -------------------------------
 
 Vamos criar e entrar na branch chamada teste com o comando
