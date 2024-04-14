@@ -12,7 +12,7 @@ git commit -m "commit 1"
 ---------------------------------
 **Nesse momento podemos pereber que a main está apontando para o commit 2.**
 
-![imagem branch main apontando para commit 2](./imagens/image.png)
+![imagem branch main apontando para commit 2](./imagens/image-0.png)
 
 > *Desculpe pessoal, acabei tirando o print errado e só percebi depois que terminei todo o processo*
 
@@ -52,5 +52,5 @@ Acotece muito, quando estamos trabalhando em equpe, de duas pessoas fazerem alte
 
 Repositório local 
 -----
-Descrição do repositório local gerando conflito
+Descrição do repositório local sobre conflitos
 
