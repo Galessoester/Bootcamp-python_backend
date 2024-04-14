@@ -78,4 +78,7 @@ Repositório local
 -----
 Descrição do repositório local resolvendo conflito
 
+## 📚 Documentação: ~
+- [Git](https://git-scm.com/docs/git/pt_BR)
+- [GitHub](https://docs.github.com/pt)
 
