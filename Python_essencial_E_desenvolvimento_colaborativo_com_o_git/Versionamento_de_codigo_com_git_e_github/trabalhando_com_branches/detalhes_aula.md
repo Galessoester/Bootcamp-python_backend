@@ -22,4 +22,12 @@ git checkout -b 'teste'
 - Agora as duas branches estão apontando para o mesmo commit:
 ![imagem branch main e teste apontando para commit 2](image-1.png)
 ----------------
-Vamos criar um novo arquivo com o nome commit-3-branch-teste e dar o commit, agora na branch teste para ver o que acontece:
+Vamos criar um novo arquivo com o nome commit-3-branch-teste e dar o commit, agora na branch teste, para ver o que acontece:
+![imagem branch main apontando para commit 2 e teste para commit 3](image-2.png)
+
+Vemos que a branch teste aponta para o commit 3, mas a branch main ficou no commit 2. 
+Para nivelar as duas precisamos dar o comando "merge".
+```
+git checkout main
+git merge teste
+```
