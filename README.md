@@ -1,4 +1,4 @@
-# Bem vindos
+# 🤗 Bem vindos
 
 Este repositório guarda os projetos feitos a partir do **Bootcamp - Python Backend Developer** pela DIO em parceria com a Vivo.
 
