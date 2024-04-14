@@ -11,15 +11,15 @@ git commit -m "commit 1"
 ---------------------------------
 ```
 * Nesse momento podemos pereber que a main está apontando para o commit 2.
-![imagem branch main apontando para commit 1](image.png)
+![imagem branch main apontando para commit 2](image.png)
 -------------------------------
 
 Vamos criar e entrar na branch chamada teste com o comando
 ```
 git checkout -b 'teste'
 ```
-Agora as duas branches estão apontando para o mesmo commit:
 
-![imagem branch main e teste apontando para commit 1](image-1.png)
+- Agora as duas branches estão apontando para o mesmo commit:
+![imagem branch main e teste apontando para commit 2](image-1.png)
 ----------------
 Vamos criar um novo arquivo com o nome commit-3-branch-teste e dar o commit, agora na branch teste para ver o que acontece:
