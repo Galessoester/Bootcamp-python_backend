@@ -12,7 +12,7 @@ git commit -m "commit 2"
 ---------------------------------
 **Nesse momento podemos pereber que a main está apontando para o commit 2.**
 
-![imagem branch main apontando para commit 2](./imagens/image-0.png)
+![imagem branch main apontando para commit 2](./trabalhando_com_branches/imagens/image-0.png)
 
 > *Desculpe pessoal, acabei tirando o print errado e só percebi depois que terminei todo o processo*
 
@@ -25,10 +25,10 @@ git checkout -b 'teste'
 
 **Agora as duas branches estão apontando para o mesmo commit:**
 
-![imagem branch main e teste apontando para commit 2](./imagens/image-1.png)
+![imagem branch main e teste apontando para commit 2](./trabalhando_com_branches/imagens/image-1.png)
 ----------------
 Vamos criar um novo arquivo com o nome commit-3-branch-teste e dar o commit, agora na branch teste, para ver o que acontece:
-![imagem branch main apontando para commit 2 e teste para commit 3](./imagens/image-2.png)
+![imagem branch main apontando para commit 2 e teste para commit 3](./trabalhando_com_branches/imagens/image-2.png)
 
 Vemos que a branch teste aponta para o commit 3, mas a branch main ficou no commit 2. 
 Para nivelar as duas precisamos dar o comando "merge".
@@ -38,11 +38,11 @@ git merge teste
 ```
 **Resultado:**
 
-![imagem main e teste apontando para commit 3](./imagens/image-3.png)
+![imagem main e teste apontando para commit 3](./trabalhando_com_branches/imagens/image-3.png)
 -------------------
 Para finalizar, vamos excluir a branch teste:
 
-![excluindo branch teste](./imagens/image-4.png)
+![excluindo branch teste](./trabalhando_com_branches/imagens/image-4.png)
 
 # 😵 Tratando conflitos
 
@@ -53,24 +53,24 @@ Vou fazer uma alteração no README.md no repositório local, e outra no reposit
 
 **1 - Primeiro adiocionei um titulo e uma descrição no repositório local e dei um commit para que os dois repositórios estivessem na mesma página:**
 
- ![](./imagens/02_resultado_conflito.png) ![](./imagens/01_commit_conflito.png)
+ ![](./trabalhando_com_branches/imagens/02_resultado_conflito.png) ![](./trabalhando_com_branches/imagens/01_commit_conflito.png)
 
 **2 - Depois gerei um conflito entre os repositórios alterando a mesma linha e dando commit separadamente:**
 
-![](./imagens/04_resultado_gerando_conflito_local.png) ![](./imagens/03_commit_gerando_conflito_local.png)
-![](./imagens/06_resultado_gerando_conflito_remoto.png) ![](./imagens/05_commit_gerando_conflito_remoto.png)
+![](./trabalhando_com_branches/imagens/04_resultado_gerando_conflito_local.png) ![](./trabalhando_com_branches/imagens/03_commit_gerando_conflito_local.png)
+![](./trabalhando_com_branches/imagens/06_resultado_gerando_conflito_remoto.png) ![](./trabalhando_com_branches/imagens/05_commit_gerando_conflito_remoto.png)
 
 **3 - Tentei dar o `git push` do local para o remoto mas apareceu o seguinte erro:**
 
-![](./imagens/07_tentativa_push_erro.png)
+![](./trabalhando_com_branches/imagens/07_tentativa_push_erro.png)
 
 **4 - A solução está escrita no erro. Precisamos dar um `git pull` para podermos analizar as alterações e escolher a versão que deve permanecer:**
 
-![](./imagens/08_git_pull.png)
+![](./trabalhando_com_branches/imagens/08_git_pull.png)
 
 **5 - Após corrigirmos as divergências, será possivel fazer o `git push` normalmente:**
 
-![](./imagens/09_resolveu_conflito.png)
+![](./trabalhando_com_branches/imagens/09_resolveu_conflito.png)
 
 <sub> Resultado: </sub>
 
