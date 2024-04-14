@@ -14,7 +14,7 @@ git commit -m "commit 1"
 
 ![imagem branch main apontando para commit 2](./imagens/image.png)
 
-**Desculpe pessoal, acabei tirando o print errado e só percebi depois que terminei todo o processo*
+> *Desculpe pessoal, acabei tirando o print errado e só percebi depois que terminei todo o processo*
 
 -------------------------------
 
@@ -43,3 +43,14 @@ git merge teste
 Para finalizar, vamos excluir a branch teste:
 
 ![excluindo branch teste](./imagens/image-4.png)
+
+# 😵 Tratando conflitos
+
+Acotece muito, quando estamos trabalhando em equpe, de duas pessoas fazerem alterações simultaneas na mesma linha de código. Isso gera um conflito na hora de dar o merge. Vamos simular uma situação dessa e demonstrar a solução.
+
+**Vou fazer uma alteração no README.md no repositório local, e outra no repositório remoto e dar o commit nas duas:**
+
+Repositório local 
+Descrição do repositório local
+
+
