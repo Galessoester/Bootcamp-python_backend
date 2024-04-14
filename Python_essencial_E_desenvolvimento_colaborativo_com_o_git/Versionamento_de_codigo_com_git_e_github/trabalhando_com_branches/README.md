@@ -51,5 +51,5 @@ Acotece muito, quando estamos trabalhando em equpe, de duas pessoas fazerem alte
 **Vou fazer uma alteração no README.md no repositório local, e outra no repositório remoto e dar o commit nas duas:**
 
 Repositório local 
-Descrição do repositório local gerando conflito
+Descrição do repositório local corrigindo conflito
 
