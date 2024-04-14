@@ -48,7 +48,31 @@ Para finalizar, vamos excluir a branch teste:
 
 Acotece muito, quando estamos trabalhando em equpe, de duas pessoas fazerem alterações simultaneas na mesma linha de código. Isso gera um conflito na hora de dar o merge. Vamos simular uma situação dessa e demonstrar a solução.
 
-**Vou fazer uma alteração no README.md no repositório local, e outra no repositório remoto e dar o commit nas duas. Acompanhe com os prints:**
+Vou fazer uma alteração no README.md no repositório local, e outra no repositório remoto e dar o commit nas duas. Acompanhe com os prints:
+
+
+**1 - Primeiro adiocionei um titulo e uma descrição no repositório local e dei um commit para que os dois repositórios estivessem na mesma página.**
+
+ ![](./imagens/02_resultado_conflito.png) ![](./imagens/01_commit_conflito.png)
+
+**2 - Depois gerei um conflito entre os repositórios alterando a mesma linha e dando commit separadamente**
+
+![](./imagens/04_resultado_gerando_conflito_local.png) ![](./imagens/03_commit_gerando_conflito_local.png)
+![](./imagens/06_resultado_gerando_conflito_remoto.png) ![](./imagens/05_commit_gerando_conflito_remoto.png)
+
+**3 - Tentei dar o `git push` do local para o remoto mas apareceu o seguinte erro:**
+
+![](./imagens/07_tentativa_push_erro.png)
+
+**4 - A solução está escrita no erro. Precisamos da um `git pull` para podermos analizar as alterações e escolher a versão que deve permanecer**
+
+![](./imagens/08_git_pull.png)
+
+**5 - Após corrigirmos as divergências, será possivel fazer o `git push` normalmente**
+
+![](./imagens/09_resolveu_conflito.png)
+
+<sub> Resultado: </sub>
 
 Repositório local 
 -----
