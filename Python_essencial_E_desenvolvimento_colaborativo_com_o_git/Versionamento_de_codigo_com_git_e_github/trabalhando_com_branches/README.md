@@ -52,5 +52,5 @@ Acotece muito, quando estamos trabalhando em equpe, de duas pessoas fazerem alte
 
 Repositório local 
 -----
-Descrição do repositório local sobre conflitos
+Descrição do repositório local gerando conflito
 
