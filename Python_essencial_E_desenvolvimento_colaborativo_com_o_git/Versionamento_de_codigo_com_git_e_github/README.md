@@ -48,7 +48,7 @@ Para finalizar, vamos excluir a branch teste:
 
 # 😵 Tratando conflitos
 
-Acotece muito, quando estamos trabalhando em equpe, de duas pessoas fazerem alterações simultaneas na mesma linha de código. Isso gera um conflito na hora de dar o merge. Vamos simular uma situação dessa e demonstrar a solução.
+Acontece muito, quando estamos trabalhando em equpe, de duas pessoas fazerem alterações simultaneas na mesma linha de código. Isso gera um conflito na hora de dar o merge. Vamos simular uma situação dessa e demonstrar a solução.
 
 Vou fazer uma alteração no README.md no repositório local, e outra no repositório remoto e dar o commit nas duas. Acompanhe com os prints:
 
@@ -80,7 +80,7 @@ Repositório local
 -----
 Descrição do repositório local resolvendo conflito
 
-## 📚 Documentação: ~
+## 📚 Documentação:
 [![GitHub](https://img.shields.io/badge/GitHub-30A3DC?style=for-the-badge&logo=github&logoColor=white)](https://docs.github.com/)
 [![Git](https://img.shields.io/badge/Git-E94D5F?style=for-the-badge&logo=git&logoColor=white)](https://git-scm.com/doc) 
 
