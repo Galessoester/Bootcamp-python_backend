@@ -81,6 +81,6 @@ Repositório local
 Descrição do repositório local resolvendo conflito
 
 ## 📚 Documentação: ~
-- [Git](https://git-scm.com/docs/git/pt_BR)
-- [GitHub](https://docs.github.com/pt)
+[![GitHub](https://img.shields.io/badge/GitHub-30A3DC?style=for-the-badge&logo=github&logoColor=white)](https://docs.github.com/)
+[![Git](https://img.shields.io/badge/Git-E94D5F?style=for-the-badge&logo=git&logoColor=white)](https://git-scm.com/doc) 
 
