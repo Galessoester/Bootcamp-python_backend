@@ -1,5 +1,7 @@
 # ➕Tipo de operadores
 
+🔙[*Voltar ao menu inicial*](https://github.com/Galessoester/Bootcamp-python_backend/tree/main?tab=readme-ov-file#bem-vindos)
+
 Os tipos de operadores são muito similares ao da matemática, sendo:
 - '+' para soma
 - '-' para subtração
