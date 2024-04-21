@@ -26,7 +26,7 @@ Igual na matemática, as equações tem uma ordem específica a ser seguida para
 - 3 - Multiplicação e divisão, da esquerda pra direita
 - 4 - Soma e subtração, da esquerda pra direita
 
-## [Operadores de comparação]()
+## [Operadores de comparação](https://github.com/Galessoester/Bootcamp-python_backend/blob/main/Dominando_Python_e_suas_estruturas_de_dados/TIpos_de_operadores_com_python/operadores_de_comparacao.py)
 
 Os operadores de comparação são também muito parecidos com os da matemática:
 
