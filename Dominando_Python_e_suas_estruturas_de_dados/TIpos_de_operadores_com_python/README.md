@@ -28,7 +28,7 @@ Igual na matemática, as equações tem uma ordem específica a ser seguida para
 
 ## [Operadores de comparação](https://github.com/Galessoester/Bootcamp-python_backend/blob/main/Dominando_Python_e_suas_estruturas_de_dados/TIpos_de_operadores_com_python/operadores_de_comparacao.py)
 
-Os operadores de comparação são também muito parecidos com os da matemática:
+Os operadores de comparação são também muito parecidos com os da matemática, mas retornam um valor booleano (True ou False):
 
 - '==' Igual a
 - '!=" Diferente de
@@ -48,5 +48,16 @@ Além desse operador (`=`, recebe), temos a possibilidade de juntarmos com    op
 - '*=' variavel = variavel * valor_atribuido
 
 E assim por diante, com todos os operadores que já vimos em [operadores aritméticos](https://github.com/Galessoester/Bootcamp-python_backend/blob/main/Dominando_Python_e_suas_estruturas_de_dados/TIpos_de_operadores_com_python/operadores_aritmeticos.py). Veja mais exemplos em [Operadores de atribuição](https://github.com/Galessoester/Bootcamp-python_backend/blob/main/Dominando_Python_e_suas_estruturas_de_dados/TIpos_de_operadores_com_python/operadores_atribuicao.py).
+
+## [Operadores lógicos](https://github.com/Galessoester/Bootcamp-python_backend/blob/main/Dominando_Python_e_suas_estruturas_de_dados/TIpos_de_operadores_com_python/operadores_logicos.py)
+
+Os operadores lógicos servem para confirmar duas ou mais expressões lógicas se são verdadeiras ou falsas.
+
+**Tipos de operadores lógicos**
+
+- 'AND'(E) Todas as operações lógicas precisam ser verdadeiras para que essa também seja
+- 'OR'(OU) Apenas uma, ou mais, operação precisa ser verdadeira para que esta seja verdedeira
+- 'NOT'(Negação) Ele valida a operação lógica e nega ela. Então se a afirmação for verdadeira ela tem o resultado falso, e se for falso tem o resultado verdadeiro.
+
 
 > Espero que tenha te ajudado! Até a proxima 😃
