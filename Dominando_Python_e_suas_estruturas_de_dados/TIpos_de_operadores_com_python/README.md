@@ -59,5 +59,22 @@ Os operadores lógicos servem para confirmar duas ou mais expressões lógicas s
 - 'OR'(OU) Apenas uma, ou mais, operação precisa ser verdadeira para que esta seja verdedeira
 - 'NOT'(Negação) Ele valida a operação lógica e nega ela. Então se a afirmação for verdadeira ela tem o resultado falso, e se for falso tem o resultado verdadeiro.
 
+## [Operadores de identidade](https://github.com/Galessoester/Bootcamp-python_backend/blob/main/Dominando_Python_e_suas_estruturas_de_dados/TIpos_de_operadores_com_python/operadores_identidade.py)
+
+Operadores de identidade verificam se os objetos estão armazenados na mesma posição na memória, retornando um boolean.
+
+**Tipos de operadores de identidade**
+
+- 'is' Retorna True se os elementos estiverem na mesma região de memória  
+- 'is not' Retorna a negação do 'is'. Então se as variáveis estiverem ocupando o mesmo espaço na memória, ele retorna False.
+
+## [Operadores de associação](https://github.com/Galessoester/Bootcamp-python_backend/blob/main/Dominando_Python_e_suas_estruturas_de_dados/TIpos_de_operadores_com_python/operadores_de_associacao.py)
+
+Verifica se algum objeto ou String está em uma sequência.
+
+**Tipos de operadores de associação** 
+
+- 'in' Se o valor estiver no array, retorna True
+- 'not in' Ao contrário do in, se o valor estiver na sequência retorna False
 
 > Espero que tenha te ajudado! Até a proxima 😃
